@@ -34,12 +34,18 @@ body {
 .loader span:nth-child(2) {
     border-radius: 70% 30% 47% 53% / 82% 64% 36% 18%;
     animation-direction: reverse;
-    animation-duration: 3s;
+    animation-duration: 2.5s;
 }
 
 .loader span:nth-child(3) {
     border-radius: 67% 35% 65% / 52% 64% 36% 48%;
-    animation-duration: 3s;
+    animation-duration: 4s;
+}
+
+.loader span:nth-child(4) {
+    border-radius: 62% 38% 32% 68% / 41% 39% 61% 59% ;
+    animation-direction: reverse;
+    animation-duration: 3.5s;
 }
 
 .loader span {
